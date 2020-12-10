@@ -1,0 +1,21 @@
+.ServiceItemWrapper {
+  position: relative;
+  width: 80%;
+}
+
+.ServiceItem {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 26px;
+  z-index: 1;
+  text-align: left;
+  margin-left: 3px;
+}
+
+.ServiceNumber {
+  height: 24px;
+  z-index: -1;
+  position: absolute;
+  top: 0px;
+  border-radius: 0px 3px 3px 0px;
+}

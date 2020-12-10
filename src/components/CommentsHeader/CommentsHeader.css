@@ -1,0 +1,72 @@
+.CommentsHeader {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.fa-heart,
+.fa-comment-alt {
+  width: 16px;
+  height: 16px;
+  color: #73b4d5;
+}
+
+.fa-comment-alt {
+  padding-left: 10px;
+}
+
+.AllNumbers {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Comments {
+  display: flex;
+}
+
+.CommentsHeader p {
+  margin: 0px;
+}
+
+.LastComments {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  padding-right: 15px;
+}
+
+.AllComments {
+  text-decoration: underline;
+  color: #005DA1;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+
+.Numbers {
+  font-size: 12px;
+  line-height: 14px;
+  color: #333333;
+  font-weight: normal;
+  padding: 0px 0px 0px 5px;
+}
+
+@media (min-width: 480px) {
+  .CommentsHeader {
+    width: 450px
+  }
+}
+
+@media (max-width: 395px) {
+  .Comments {
+    display: block;
+    text-align: left;
+  }
+
+  .LastComments {
+    padding-bottom: 5px;
+  }
+}

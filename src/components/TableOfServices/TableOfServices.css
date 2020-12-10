@@ -1,0 +1,42 @@
+.ServicesTable {
+  width: 317px;
+  margin: 0 10px 0px 120px;
+}
+
+.AllServices {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  width: 80%;
+  text-align: left;
+}
+
+.Services {
+  text-align: right;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  margin-right: 15px;
+}
+
+.ServiceItemContainer,
+.AllServicesContainer  {
+  display: flex;
+}
+
+.ServiceNum,
+.CalculatedSum {
+  width: 20%;
+  font-weight: bold;
+}
+
+
+@media (max-width: 430px) {
+  .Services {
+    margin-right: 10px;
+  }  
+  .ServicesTable {
+    max-width: 317px;
+    margin: 0 10px 0px 10px;
+  }
+}

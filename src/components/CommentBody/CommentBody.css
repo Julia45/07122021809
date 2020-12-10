@@ -1,0 +1,48 @@
+.CommentBodyWrapper {
+  width: 100%;
+  background: #F2FBFF;
+  border: 1px solid #C4CBCF;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin: 0px 20px 15px 20px;
+  box-shadow: 0px 4px 10px rgba(128, 128, 128, 0.1);
+}
+
+@media (min-width: 480px) {
+  .CommentBodyWrapper {
+    width: 450px
+  }
+}
+
+.CommentBody {
+  max-width: 412px;
+  font-size: 14px;
+  font-family: Arial;
+  line-height: 19px;
+  text-align: justify;
+  position: relative;
+}
+
+.CommentBody::after {
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid #f2fbff;
+  border-right: 9px solid transparent;
+  content: '';
+  position: absolute;
+  left: -4px;
+  top: -25px;
+}
+
+.CommentBody::before {
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid #C4CBCF;
+  border-right: 11px solid transparent;
+  content: '';
+  position: absolute;
+  left: -5px;
+  top: -26px;
+}
